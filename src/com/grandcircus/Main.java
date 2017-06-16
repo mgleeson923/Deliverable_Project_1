@@ -7,13 +7,14 @@ public class Main {
     public static void main(String[] args) {
 
         /* variable for user inputted number// */
-        int userNum = 0;
+        int userNum;
 
         /* scanner of user input// */
         Scanner scnr = new Scanner(System.in);
 
         /* Text explaining the purpose of the program// */
         System.out.println("Is your number an Armstrong Number?");
+        System.out.println("An Armstrong Number is a number in which the sum each digit cubed is equal to the original number.");
 
         /* text prompting user to enter the number they wish to test// */
         System.out.println("Enter a number:");
